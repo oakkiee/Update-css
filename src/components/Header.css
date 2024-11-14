@@ -1,0 +1,61 @@
+/* นำเข้าฟอนต์จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Sixtyfour&display=swap');
+
+/* ล้างค่าของ margin, padding และตั้งค่า box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sixtyfour', 'Edu AU VIC WA NT Pre', sans-serif; /* เปลี่ยนฟอนต์ทั่วทั้งเว็บไซต์ */
+}
+
+/* การตั้งค่าสำหรับ navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 255); /* สีอ่อนลงเล็กน้อย */
+    padding: 15px 30px; /* เพิ่ม padding ด้านข้าง */
+    border-bottom: 2px solid #eee; /* เส้นขอบล่างบางๆ เพื่อแยก navbar */
+}
+
+/* การตั้งค่าสำหรับโลโก้ */
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px; /* ขนาดฟอนต์ใหญ่ขึ้น */
+}
+
+/* การตั้งค่าสำหรับเมนู */
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: color 0.3s, background-color 0.3s; /* เพิ่มเอฟเฟกต์เปลี่ยนสี */
+}
+
+/* เอเฟกต์ hover บนเมนู */
+.menu li a:hover {
+    color: #007bff; /* สีฟ้าอ่อน */
+    background-color: rgba(24, 123, 255, 0.1); /* พื้นหลังฟ้าอ่อนเมื่อ hover */
+    border-radius: 5px; /* ขอบมน */
+}
+
+/* เส้น hr ให้เต็มความกว้าง */
+hr {
+    border: none;
+    border-top: 2px solid #eee;
+    margin-top: 20px;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+/* นำเข้าฟอนต์จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Sixtyfour&display=swap');
+
+/* ล้างค่าของ margin, padding และตั้งค่า box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sixtyfour', 'Edu AU VIC WA NT Pre', sans-serif; /* ใช้ฟอนต์ทั่วทั้งเว็บไซต์ */
+}
+
+/* การตั้งค่าสำหรับ .banner */
+.banner {
+    background-color: teal;
+    color: #fff; /* สีฟอนต์พื้นฐานเป็นสีขาว */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Sixtyfour', 'Edu AU VIC WA NT Pre', sans-serif; /* ใช้ฟอนต์หลัก */
+}
+
+.banner-info {
+    text-align: center;
+}
+
+/* กำหนดขนาดฟอนต์ของ h1 */
+.banner-info h1 {
+    color: #fff; /* สีฟอนต์เป็นสีขาว */
+}
+
+/* กำหนดขนาดฟอนต์สำหรับทั้งสอง h1 */
+.banner-info h1:nth-child(1), .banner-info h1:nth-child(2) {
+    font-size: 40px; /* ขนาดฟอนต์สำหรับทั้งสอง <h1> */
+    font-family: 'Sixtyfour', 'Edu AU VIC WA NT Pre', sans-serif; /* ใช้ฟอนต์หลัก */
+}
+
+/* ในกรณีที่ต้องการให้ใช้ฟอนต์อื่นๆ เฉพาะในบางส่วน */
+.banner-info h1:nth-child(1) {
+    font-family: 'Roboto', sans-serif; /* ใช้ฟอนต์ Roboto สำหรับ h1 ตัวแรก */
+}
+
+.banner-info h1:nth-child(2) {
+    font-family: 'Roboto', sans-serif; /* ใช้ฟอนต์ Roboto สำหรับ h1 ตัวที่สอง */
+}

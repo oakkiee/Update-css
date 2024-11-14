@@ -1,0 +1,45 @@
+/* BookingPage.css */
+.booking-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.booking-page-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-page-form .form-group {
+    margin-bottom: 15px;
+}
+
+.booking-page-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.booking-page-form input,
+.booking-page-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.booking-page-form .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.booking-page-form .submit-btn:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,30 @@
+/* นำเข้าฟอนต์จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.reserve {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.reserve h4 {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* เพิ่มระยะห่างด้านข้าง */
+}
+
+.images img {
+    width: 100%; /* ปรับขนาดรูปภาพให้เหมาะสม */
+    padding: 10px;
+}
+ p{
+    padding-top: 20px;
+    font-size: 15px;
+ }
