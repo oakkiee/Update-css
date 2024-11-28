@@ -10,7 +10,7 @@ export default function Header() {
         </div>
 
         <ul className="menu">
-            <li><Link to="/community">Community</Link></li>
+            <li><Link to="/HistoryPage">History</Link></li>
             <li><Link to="/booking">Booking</Link></li> {/* ลิงก์ไปยังหน้า BookingPage */}
             <li><Link to="/register">Register</Link></li>
             <li><Link to="/login">Login</Link></li>

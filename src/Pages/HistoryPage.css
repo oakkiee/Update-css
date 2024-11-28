@@ -1,0 +1,111 @@
+/* นำเข้าฟอนต์จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ตั้งค่าฟอนต์หลัก */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* กำหนดสไตล์ของ container */
+.history-page-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* สไตล์ตารางประวัติการจอง */
+.history-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-list th, .history-list td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.history-list th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.history-list td {
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    font-size: 16px;
+}
+
+.history-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* การแสดงผลเมื่อไม่มีการจอง */
+.history-list .no-booking {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    font-style: italic;
+}
+
+/* สไตล์ส่วนหัวของตาราง */
+.history-list th, .history-list td {
+    border-radius: 5px;
+}
+
+.booking-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+.booking-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.booking-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #777;
+    font-style: italic;
+}
+
+/* ปรับขนาดปุ่ม */
+button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
